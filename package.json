@@ -1,0 +1,22 @@
+{
+  "name": "carbon-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "prestart": "node scripts/prestart.js",
+    "start": "vite",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@carbon/ibmdotcom-web-components": "^2.11.1",
+    "@carbon/styles": "^1.61.0",
+    "glob": "^11.0.0",
+    "sass": "^1.77.8",
+    "vite": "^5.3.5"
+  }
+}
