@@ -1,4 +1,4 @@
-import { glob } from 'glob'
+import { glob } from '../node_modules/glob'
 import { writeFile } from "fs/promises";
 
 const cibm = "https://1.www.s81c.com/common/carbon-for-ibm-dotcom/version";
